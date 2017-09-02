@@ -43,16 +43,16 @@ app
     ($scope, $state) => {
       $scope.icons = [{
         icon: 'flash_on',
-        title: '快速搭建',
-        content: '仅依赖Node.js，无需安装数据库（可选MySQL）',
+        title: '快如闪电',
+        content: '纸飞机快如闪电，带你在网络上自由自在地飞啊飞~~',
       }, {
-        icon: 'build',
-        title: '易于配置',
-        content: '带有插件系统，仅需修改配置文件即可运行',
+        icon: 'phonelink',
+        title: '使用方便',
+        content: '支持个人电脑，安卓，苹果手机，只要扫一下二维码，轻松登上纸飞机.',
       }, {
-        icon: 'vpn_key',
-        title: '官方标准',
-        content: '支持libev和python版本的标准manager API',
+        icon: 'blur_on',
+        title: '多点加速',
+        content: '立即注册上纸飞机,即可获取全球精选配置的N个节点加速,赠送7天体验.',
       }];
       $scope.login = () => { $state.go('home.login'); };
       $scope.signup = () => { $state.go('home.signup'); };

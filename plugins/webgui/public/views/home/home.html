@@ -38,7 +38,7 @@
                     <span flex></span>
                     <md-button hide-sm hide-xs ng-repeat="menu in menus" aria-label="menu.icon" ng-click="menuClick($index)">
                         {{ menu.name | translate }}
-                    </md-button> 
+                    </md-button>
                     <md-button aria-label="language menu" class="md-icon-button" ng-click="chooseLanguage()">
                         <md-icon class="material-icons">language</md-icon>
                     </md-button>
@@ -51,6 +51,21 @@
                 <div ui-view flex autoscroll="true"></div>
             </md-content>
         </div>
+
+        <footer style="width: 100%; height: 60px; background-color: #E0E0E0;">
+            <div flex layout="row" layout-align="center center">
+
+               <span>
+                   <md-icon
+                       md-colors="{ color: 'default-primary-500'}"
+                       style="font-size: 20px; padding: 20px 0px;"
+                   >notifications</md-icon>
+               </span>
+               <span style="font-size: 16px; padding: 20px 0px;">使用*飞翔的纸飞机*请遵守[中国和香港]地区的法律法规！</span>
+
+            </div>
+        </footer>
+
     </div>
     </section>
 </div>
